@@ -1,0 +1,31 @@
+import "./Questions.css";
+
+const Questions = ({ questions, answerbtnHandler }) => {
+    return questions.map((data, index) => {
+        const questionData = data[`questionNumber-${index + 1}`];
+        return (
+            <div
+                data-question-number={index + 1}
+                key={questionData.questionText}
+                className="quiz-container"
+            >
+                <h1 className="quiz-question">{questionData.questionText}</h1>
+                <ul className="quiz-answers">
+                    {questionData.answers.map((answer) => (
+                        <li className="quiz-answer" key={answer}>
+                            <button
+                                onClick={answerBtnHandler}
+                                data-answer-content={answer}
+                                className={`quiz-answer-btn btn-hv btn-outline`}
+                            >
+                                {answer}
+                            </button>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        );
+    });
+};
+
+export default Questions;

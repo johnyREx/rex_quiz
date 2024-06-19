@@ -1,0 +1,55 @@
+:root {
+    /* Background Colors */
+    --primary-bg-color: white;
+    --secondary-bg-color: #f5f7fb;
+  
+    --tertiary-bg-color: #dee2e6;
+    --quartenary-bg-color: #495057;
+  
+    /* Text Colors */
+    --primary-text-color: #111;
+    --secondary-text-color: #293264;
+  
+    --border-bottom-color: #dbdef0;
+  
+    --tooltip-text-color: #6470ac;
+  
+    --footer-text-color: #343a40;
+  
+    --btn-outline-hover-color: #d6dbf5;
+  
+    --box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+    --shadow-color: rgba(0, 0, 0, 0.08);
+  
+    /* Accent Colors */
+    --primary-accent-color: #4d5b9e;
+    --secondary-accent-color: #6470ac;
+  }
+  
+  .darkmode {
+    /* Background Colors */
+    --primary-bg-color: black;
+    --secondary-bg-color: #111;
+  
+    --tertiary-bg-color: #222;
+    --quartenary-bg-color: #adb5bd;
+  
+    /* Text Colors */
+    --primary-text-color: white;
+    --secondary-text-color: #d4d6e0;
+  
+    --border-bottom-color: #6e6f78;
+  
+    --tooltip-text-color: #939bc5;
+  
+    --box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+    --shadow-color: rgba(255, 255, 255, 0.1);
+  
+    --footer-text-color: #adb5bd;
+  
+    --btn-outline-hover-color: #2b2c31;
+  
+    /* Accent Colors */
+    --primary-accent-color: #6470ac;
+    --secondary-accent-color: #4d5b9e;
+  }

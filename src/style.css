@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;500;600&display=swap");
+@import url("./variables.css");
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: "Karla", sans-serif;
+  text-decoration: none;
+  background: none;
+  color: #293264;
+  border: none;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+body {
+  background-color: var(--secondary-bg-color);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+h1 {
+  font-size: 3rem;
+  word-wrap: break-word;
+  line-height: 1;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 19px;
+}
+
+.content {
+  min-height: 90vh;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: #4d5b9e;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* Outlined Buttons */
+
+.btn-outline {
+  border-radius: 5px;
+  color: var(--secondary-text-color);
+  cursor: pointer;
+  padding: 0.3rem 1rem;
+  border: solid 1px var(--secondary-text-color);
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background-color: var(--btn-outline-hover-color);
+}
+
+/* Hover Effects for buttons */
+
+.btn:hover {
+  background-color: #6470ac;
+}
+
+.btn-hv {
+  transform: unset;
+}
+
+.btn-hv:hover {
+  transform: translateY(-10%);
+  box-shadow: var(--box-shadow);
+}
+
+.btn-hv:active {
+  transform: unset;
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 90%;
+  }
+}

@@ -1,0 +1,17 @@
+footer {
+    border-top: solid 1px var(--border-bottom-color);
+    text-align: center;
+    display: block;
+    padding: 1rem 2rem;
+  }
+  
+  footer p {
+    color: var(--footer-text-color);
+    font-size: 1rem;
+  }
+  
+  footer a {
+    color: var(--primary-text-color);
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+  }
